@@ -1,0 +1,30 @@
+{
+    "name": "fazleelahee/ziggeo",
+    "description": "Laravel wrapper for ziggeo library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fazle Elahee",
+            "email": "fazle.elahee@sonin.agency"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.7",
+        "mockery/mockery": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZiggeoRecorder\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ZiggeoRecorder\\ZiggeoServiceProvider"
+            ]
+        }
+    }
+}
