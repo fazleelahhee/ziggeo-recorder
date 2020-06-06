@@ -1,1 +1,1 @@
-# Laravel wrapper ziggeo video libraru 
+# Laravel wrapper ziggeo video library
